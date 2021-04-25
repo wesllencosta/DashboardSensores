@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Monitor de sensores</title>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+<body>
+    <h1>DashBoard Sensores</h1>
+    <div class="container">
+        <div id="Display_de_temperatura" class="Display_de_temperatura">
+            <h2 class="title_Temperature">Temperatura (° C)</h2>
+        </div>
+        <div id="Display_de_kWh" class="Display_de_kWh">  
+            <h2 class="title_Energy_consumption">Gasto de energia (kWh)</h2>  
+        </div>
+    </div>
+
+    <div id="Display_HigherConsumption" class="Display_HigherConsumption">
+    </div>
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+<script src="app.js"></script>
+
+</html>
