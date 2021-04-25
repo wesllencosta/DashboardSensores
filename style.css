@@ -1,0 +1,135 @@
+body {
+margin: 0%;
+background: #f0f0f0;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    height: min-content;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Display_de_temperatura{
+    
+    width: 40%;  
+    height: min-content;
+    padding: 2%;
+    background: #ffffff;
+    border-radius: 2%;
+    border: 5px;
+    border-radius: 9px;
+
+}
+
+.title_Temperature{
+
+    color: #50a55e;
+
+}
+
+.roomDisplayTemp{
+    margin-top: 6%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.38);
+    width: 100%;
+    height: min-content;
+   
+}
+
+.nameRoomTemperature{
+    background-color: #50a55e;
+    padding: 2%;
+    display: flex;
+    font-size: 24px;
+    color: azure;
+    text-align: start;
+    border-radius: 2%;
+    border: 5px;
+    border-radius: 9px;
+}
+
+span{
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 5%;
+    color: #868686;
+
+}
+
+.tempMensure{
+    display: inline-block;
+    font-size: 30px;
+    
+}
+
+.Display_de_kWh{
+    
+    width: 40%;
+    height: min-content;
+    padding: 2%;
+    background: #ffffff;
+    border-radius: 2%;    
+    margin-left: 2%;
+    border: 5px;
+    border-radius: 9px;
+}
+
+.title_Energy_consumption{
+
+    color: #6abdee
+}
+
+.roomDisplaykwh{
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.38);
+    width: 100%;
+    height: min-content;
+   
+
+}
+
+.nameRoomEnergy{
+    background-color: #6abdee;
+    padding: 2%;
+    display: flex;
+    font-size: 24px;
+    color: azure;
+    text-align: start;
+    border-radius: 2%;
+    border: 5px;
+    border-radius: 9px;
+
+}
+
+.energyMensure{
+    display: inline-block;
+    font-size: 30px;
+
+}
+
+canvas{
+    border-bottom: 0px solid rgba(38, 78, 255, 0.38);
+}
+
+@media(max-width: 1200px){
+    .container {
+    display: flex;
+    flex-direction: column;
+    }
+    .Display_de_kWh{
+        margin-left: 0%;
+        width: 70%;
+    }
+    .Display_de_temperatura{
+        width: 70%;
+        margin-bottom: 5%;
+    }
+}
